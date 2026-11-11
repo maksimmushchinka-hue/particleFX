@@ -1,0 +1,122 @@
+# ParticleFX — конфигурация
+# Все эффекты можно выключать по одному; лимиты защищают сервер от перегрузки.
+
+limits:
+  max-scale: 5.0                  # предельный масштаб (GUI и команда клампят к нему)
+  max-duration: 400               # предельная длительность в тиках
+  max-speed: 3.0                  # предельная скорость
+  max-particles-per-tick: 4000    # общий бюджет частиц на тик для всех эффектов
+  max-active-per-player: 2        # одновременно работающих эффектов у игрока
+  max-active-server: 40           # максимум эффектов на сервере
+
+preview:
+  enabled: true                   # кнопка предпросмотра в меню настроек
+
+defaults:
+  scale: 1.0
+  duration: 160
+  speed: 1.0
+  density: 1.0
+  ahead: false                    # false = на месте игрока, true = перед игроком
+
+effects:
+  supernova:
+    enabled: true
+  galactic_vortex:
+    enabled: true
+  black_hole:
+    enabled: true
+  galaxy_collision:
+    enabled: true
+  nebula:
+    enabled: true
+  saturn_rings:
+    enabled: true
+  meteor_shower:
+    enabled: true
+  comet:
+    enabled: true
+  planetary_system:
+    enabled: true
+  atom:
+    enabled: true
+  lightning:
+    enabled: true
+  storm_front:
+    enabled: true
+  fire_tornado:
+    enabled: true
+  ice_tornado:
+    enabled: true
+  waterfall:
+    enabled: true
+  tsunami:
+    enabled: true
+  volcano:
+    enabled: true
+  earthquake:
+    enabled: true
+  sandstorm:
+    enabled: true
+  vortex:
+    enabled: true
+  stone_golem:
+    enabled: true
+  dragon:
+    enabled: true
+  phoenix:
+    enabled: true
+  fire_meteor:
+    enabled: true
+  ice_crown:
+    enabled: true
+  solar_eclipse:
+    enabled: true
+  moon_portal:
+    enabled: true
+  magic_portal:
+    enabled: true
+  rune:
+    enabled: true
+  magic_circle:
+    enabled: true
+  energy_sphere:
+    enabled: true
+  energy_beam:
+    enabled: true
+  pulsating_shield:
+    enabled: true
+  crystal:
+    enabled: true
+  crystal_explosion:
+    enabled: true
+  star_rain:
+    enabled: true
+  spiral_galaxy:
+    enabled: true
+  geometric_cube:
+    enabled: true
+  tesseract:
+    enabled: true
+  hourglass:
+    enabled: true
+  dna_spiral:
+    enabled: true
+  heart:
+    enabled: true
+  flower_burst:
+    enabled: true
+  tree_of_life:
+    enabled: true
+  star_explosion:
+    enabled: true
+  double_spiral:
+    enabled: true
+  light_arch:
+    enabled: true
+  energy_pillar:
+    enabled: true
+  shockwave:
+    enabled: true
+  apocalypse:
+    enabled: true

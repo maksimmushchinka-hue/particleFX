@@ -1,0 +1,20 @@
+name: ParticleFX
+version: 1.0.0
+main: dev.particlefx.ParticleFXPlugin
+api-version: "1.21"
+description: 50 particle-only animation effects with GUI
+commands:
+  particlefx:
+    description: ParticleFX menu and effects
+    aliases: [pfx]
+    usage: /particlefx [menu|play|stop|list|reload]
+permissions:
+  particlefx.use:
+    description: Access to the menu
+    default: true
+  particlefx.play:
+    description: Run effects
+    default: true
+  particlefx.admin:
+    description: Reload config and bypass limits
+    default: op
